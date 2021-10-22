@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 3rem;
+}
+
+#shadow {
+  pointer-events: none;
+}
+.color-selector {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+h1,
+p,
+label {
+  font-family: "Poppins", sans-serif;
+}
+input {
+  margin: 1rem;
+}
+h1 {
+  font-weight: bold;
+}
+p {
+  font-weight: 200;
+}
+/* .color1 {
+  fill: #ab8e76;
+}
+.color2 {
+  fill: #83656d;
+}
+.color3 {
+  fill: #948fad;
+}
+.color4 {
+  fill: #7a9268;
+}
+.color5 {
+  fill: #7c9399;
+}
+.color6 {
+  fill: #6e7a90;
+}
+.color7 {
+  fill: #c1c3c6;
+}
+.color0 {
+  fill: black;
+}
+ */
+.cls-1,
+.cls-10,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9 {
+  isolation: isolate;
+}
+/* .cls-1:hover,
+.cls-3:hover,
+.cls-4:hover,
+.cls-5:hover,
+.cls-6:hover,
+.cls-7:hover,
+.cls-8:hover,
+.cls-9:hover,
+.cls-10:hover {
+  stroke: black;
+  stroke-width: 4px;
+} */
+
+.stroke {
+  stroke: black;
+  stroke-width: 4px;
+}
+.cls-1 {
+  opacity: 0.7;
+}
+
+.cls-2 {
+  fill-rule: evenodd;
+}
+
+.cls-3 {
+  opacity: 0.7;
+}
+
+.cls-4 {
+  opacity: 0.7;
+}
+
+.cls-5 {
+  opacity: 0.7;
+}
+
+.cls-6 {
+  opacity: 0.7;
+}
+
+.cls-7 {
+  opacity: 0.7;
+}
+
+.cls-8 {
+  opacity: 0.7;
+}
+
+.cls-9 {
+  opacity: 0.7;
+}
+
+.cls-10 {
+  opacity: 0.7;
+}
+
+/* .cls-2:hover {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: dash 5s linear alternate infinite;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+ */
